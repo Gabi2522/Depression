@@ -1,5 +1,6 @@
 # Tytuł: Depression Dataset - analiza czynników wystąpienia depresji
 # File:  depression_data_checked_.csv
+#Plik został skompresowany: po rozpakowaniu: compressed_data.csv
 
 #Informacje na temat pliku - Zawarte kolumny z opisami
 
@@ -49,7 +50,8 @@ setwd("~/R/R-zajecia")
 
 #Wczytanie pliku
 Depression <- read_csv("depression_data_checked_.csv")
-
+#lub, po kompresji zmiana nazwy prawdopodobnie na:
+Depression <- read_csv("compressed_data.csv")
 #----------------------------Przygotowanie i oczyszczanie danych----------------------------------------------------
 -#Przegląd klas danych i zawartość bazy danych
 view(Depression)
